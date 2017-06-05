@@ -1,0 +1,134 @@
+body {
+    height:100vw;
+}
+.left-nav {
+    position: absolute;
+    width: 145px;
+    background-color:black;
+    color: lightgray;
+    height:100vw;
+    font-size:14px;
+    font-weight:bold;
+    color:#e4e4e4;
+}
+
+.container {
+    width:1310px;
+    height:100%;
+    font-family: Helvetica;
+}
+
+.body-container {
+    margin-left: 165px;
+    height:100%;
+}
+
+.sort-row {
+    text-align:right;
+    margin-right: 10px;
+    font-size:30px;
+}
+
+.top-banner {
+    min-height:145px;
+    display:block;
+    background-image:url("../images/top_banner.jpg"); 
+    background-repeat:no-repeat;
+    color:#403f3f;
+    font-size:60px;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+.file-box {
+    color:#403f3f;
+    float: left;
+    position: relative;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: block;
+    font-size:18px;
+    font-weight: bold;
+    border: 1px solid lightgray;
+    margin-left:10px;
+    min-height: 480px;
+    width: 354px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    margin-left:40px;
+    margin-right: 40px;
+}
+.box-title {
+    padding-top:20px;
+    max-height: 21px;
+    overflow: hidden;
+}
+
+.box-file-name {
+    font-size:14px;
+    font-weight: normal;
+}
+.description {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 24px;
+    height:150px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.large-text {
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.small-text {
+    font-size:18px;
+    padding-top:50px;
+    padding-left:20px;
+}
+.side-menu {
+    list-style-type: none;
+    padding-left:0;
+}
+.side-menu  > li {
+    position:relative;
+}
+.side-menu  i {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right:10px;
+}
+.side-menu  div {
+    display: inline-block;
+}
+
+.side-menu .nav-buttons {
+    background-color:#383030;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:10px;
+    margin-bottom:5px;
+    
+}
+.side-menu .explore {
+    border-right: 6px solid #439ad3;
+}
+
+.side-menu .folder{
+    border-right: 6px solid #f631ef;
+}
+
+.side-menu .upload{
+    border-right: 6px solid #ff9400;
+}
+
+.side-menu .nav-header {
+    padding-left:30px;
+}
